@@ -234,6 +234,8 @@ main{
         border-radius: 10px;
         margin-top: 20px;
         transition: all 1s ease;
+        color: #181818;
+        font-weight: 500;
         &:hover{
             color: #df003f;
         }
