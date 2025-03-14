@@ -42,21 +42,39 @@
         }
     }
 
-    .icones{
-        height: 100%;
-        padding: 20px 10px;
-        gap: 50px;
-        flex-wrap: wrap;
-        .work{
-            
-            & img{
-                height: 80px;
-            }
-            & p{
-                font-size: 16px;
+    .planos{
+        padding: 30px 5px;
+
+        .planos-interno{
+            padding: 30px 0px;
+            width: 97%;
+            & h1{
+                font-size: 30px;
             }
         }
-    }   
+        .pacotes{
+            gap: 30px;
+            flex-direction: column;
+
+            .pacote-1, .pacote-2, .pacote-3{
+                width: 320px;
+
+                & li{
+                    font-size:14px;
+                }
+            }
+        }
+    }
+
+    .icones{
+        height: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+    .icones::before{
+        font-size: 70px;
+    }     
 
     .digital{
         flex-direction: column-reverse;
@@ -244,16 +262,28 @@
         }
     }
 
-    .icones{
-        gap: 20px;
-        .work{
-            & img{
-                height: 50px;
-            }
-            & p{
-                font-size: 15px;
+    .planos{
+        padding: 50px;
+
+        .planos-interno{
+            & h1{
+                font-size: 30px;
             }
         }
+        .pacotes{
+            gap: 30px;
+            flex-direction: column;
+        }
+    }
+
+    .icones{
+        height: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 5px;
+    }
+    .icones::before{
+        font-size: 80px;
     }   
 
     .digital{
@@ -371,15 +401,24 @@
         }
     }
 
-    .icones{
-        gap: 80px;
-        .work{
-            & img{
-                height: 80px;
-            }
+    .planos{
+        padding: 50px;
+        .pacotes{
+            gap: 30px;
+            flex-direction: column;
         }
-    }   
+    }
 
+    .icones{
+        height: 100%;
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 20px;
+    }
+    .icones::before{
+        font-size: 100px;
+    }
+  
     .digital{
         flex-direction: column-reverse;
         padding: 30px;
@@ -445,6 +484,22 @@
 }
 
 @media screen and (min-width: 850px) and (max-width: 999px) {
+    .planos{
+        padding: 50px;
+        .pacotes{
+            gap: 30px;
+            flex-direction: column;
+        }
+    }
+
+    .icones{
+        height: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .icones::before{
+        font-size: 100px;
+    }
 
     .digital{
         gap: 10px;
@@ -485,11 +540,34 @@
             left: 150px;
         }
     }
-    
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .planos{
 
+        .planos-interno{
+            padding: 30px 10px;
+        }
+        .pacotes{
+            gap: 20px;
+            .pacote-1, .pacote-2, .pacote-3{
+                width: 310px;
+                padding: 20px 5px;
+                & li{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .icones{
+        height: 100%;
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+    .icones::before{
+        font-size: 100px;
+    }
     .digital{
         gap: 10px;
         & img{
@@ -517,7 +595,6 @@
             left: 250px;
         }
     }
-    
 }
 
 /*RESPONSIVIDADE GLOBAL*/

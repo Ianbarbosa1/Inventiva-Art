@@ -9,7 +9,7 @@
 }
 
 /*DIVs FLEXs*/
-article, .menu, .logo, .links, .home, .agendar, .redes-fixa, main, .missao, .icones, .work, .digital, .digital-interno, .topico, .feedbacks, .feedback-interno, .feed, .pessoa, .clientes, .clientes-interno, .redes,.vale-apena, .vale-imagem, .resposta, .sobre, .sobre-interno, footer, form, .formulario-interno, .estrutura-input, .sobre-footer{
+article, .menu, .logo, .links, .home, .agendar, .redes-fixa, main, .missao, .icones, .work, .planos, .pacotes, .digital, .digital-interno, .topico, .feedbacks, .feedback-interno, .feed, .pessoa, .clientes, .clientes-interno, .redes,.vale-apena, .vale-imagem, .resposta, .sobre, .sobre-interno, footer, form, .formulario-interno, .estrutura-input, .sobre-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,19 +242,111 @@ main{
     }
 }
 
+.planos{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: #0ba7b4;
+
+    .planos-interno{
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 50px;
+        & h1{
+           font-size: 35px;
+           font-weight: 500;
+           color: #181818;
+           margin-bottom: 50px;
+           & span{
+            padding: 5px;
+            background-color: #f5db03;
+            color: #ffffff;
+           }
+        }
+    }
+    .pacotes{
+        gap: 100px;
+
+        .pacote-1, .pacote-2, .pacote-3{
+            width: 350px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 0px 3px silver;
+            border-radius: 20px;
+            transition: all 1s ease;
+            & h2{
+                font-size: 23px;
+                font-weight: 500;
+                color: #0ba7b4;
+                margin-bottom: 10px;
+            }
+            & li{
+                font-size: 15px;
+                text-align: start;
+                font-weight: 500;
+                color: #181818;
+                margin-bottom: 10px;
+                list-style-image: url(../imagens/light.svg);
+            }
+            & nav{
+                height: 10px;
+                margin: 10px 0px;
+            }
+            & a{
+                color: #ffffff;
+                padding:10px 30px;
+                background-color: #0ba7b4;
+                border-radius: 5px; transition: all 1s;
+                &:hover{
+                    color: black;
+                }
+            }
+            &:hover{
+                box-shadow: 0px 0px 20px silver;
+            }
+        }
+        .pacote-2{
+            box-shadow: 0px 0px 3px gold;
+            &:hover{
+                box-shadow: 0px 0px 20px gold;
+            }
+        }
+        .pacote-3{
+            box-shadow: 0px 0px 6px #96c3fa;
+            &:hover{
+                box-shadow: 0px 0px 20px #96c3fa;
+            }
+        }
+    }
+}
+
 .icones{
-    height: 150px;
+    height: 200px;
     width:100%;
     background-color: #df003f;
-    gap: 100px;
+    gap: 50px;
 
     .work{
         flex-direction: column;
         gap: 5px;
+        z-index: +1;
         & img{
             height: 100px;
         }
+        & p{
+            text-align: center;
+            font-size: 15px;
+            width: 150px;
+        }
     }
+}
+.icones::before{
+    content:'NOSSOS SERVIÇOS';
+    position: absolute;
+    color: #ad043498;
+    font-size: 130px;
+    text-align: center;
 }
 
 .digital{
