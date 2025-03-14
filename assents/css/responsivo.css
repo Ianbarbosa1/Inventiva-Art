@@ -66,15 +66,12 @@
         }
     }
 
-    .icones{
-        height: 100%;
-        flex-wrap: wrap;
-        padding: 20px;
-        gap: 30px;
-
+    .icones{ 
+        flex-direction: column;
+        gap: 40px;
         .work{
             & img{
-                height: 60px;
+                height: 70px;
             }
             & p{
                 width: 100%;
@@ -287,9 +284,6 @@
     }
 
     .icones{
-        height: 100%;
-        flex-wrap: wrap;
-        padding:20px;
         gap: 20px 10px;
     }
     .icones::before{
@@ -420,8 +414,6 @@
     }
 
     .icones{
-        height: 100%;
-        flex-wrap: wrap;
         padding: 15px;
         gap: 20px;
     }
@@ -503,8 +495,6 @@
     }
 
     .icones{
-        height: 100%;
-        flex-wrap: wrap;
         padding: 20px;
     }
     .icones::before{
@@ -554,7 +544,6 @@
 
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
     .planos{
-
         .planos-interno{
             padding: 30px 10px;
         }
@@ -571,9 +560,7 @@
     }
 
     .icones{
-        height: 100%;
         padding: 30px;
-        flex-wrap: wrap;
     }
     .icones::before{
         font-size: 100px;

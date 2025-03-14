@@ -322,10 +322,12 @@ main{
 }
 
 .icones{
-    height: 200px;
+    height:100%;
     width:100%;
+    padding: 20px;
+    flex-wrap: wrap;
     background-color: #df003f;
-    gap: 15px;
+    gap: 20px;
 
     .work{
         flex-direction: column;
