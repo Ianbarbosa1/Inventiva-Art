@@ -2,3 +2,5 @@ O projeto inventiva art foi uma atualização do projeto antigo que eles já tin
 
 
 Projeto construido em HTML, CSS e JavaScript!
+
+By: Ian Barbosa
