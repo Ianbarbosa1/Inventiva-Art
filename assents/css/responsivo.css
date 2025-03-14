@@ -70,7 +70,17 @@
         height: 100%;
         flex-wrap: wrap;
         padding: 20px;
-        gap: 20px;
+        gap: 30px;
+
+        .work{
+            & img{
+                height: 60px;
+            }
+            & p{
+                width: 100%;
+            } 
+        }
+        
     }
     .icones::before{
         font-size: 70px;
@@ -279,8 +289,8 @@
     .icones{
         height: 100%;
         flex-wrap: wrap;
-        padding: 10px;
-        gap: 5px;
+        padding:20px;
+        gap: 20px 10px;
     }
     .icones::before{
         font-size: 80px;

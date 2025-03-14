@@ -325,19 +325,19 @@ main{
     height: 200px;
     width:100%;
     background-color: #df003f;
-    gap: 50px;
+    gap: 15px;
 
     .work{
         flex-direction: column;
         gap: 5px;
         z-index: +1;
         & img{
-            height: 100px;
+            height: 70px;
         }
         & p{
             text-align: center;
             font-size: 15px;
-            width: 150px;
+            width: 200px;
         }
     }
 }
