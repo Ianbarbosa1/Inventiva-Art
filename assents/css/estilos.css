@@ -285,7 +285,7 @@ main{
             border-radius: 20px;
             transition: all 1s ease;
 
-            & h2{
+            & ul{
                 font-size: 23px;
                 font-weight: 500;
                 color: #0ba7b4;
