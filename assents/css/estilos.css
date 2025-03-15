@@ -25,6 +25,7 @@ article{
     flex-direction: column;
     gap: 20px;
     display: none;
+
     & img{
         height: 40px;
         cursor: pointer;
@@ -71,6 +72,7 @@ header{
 
     .logo{
         margin-left: 50px;
+
         & h1{
             color:#f5db03;
             font-size: 25px;
@@ -86,6 +88,7 @@ header{
     .links{
         gap: 25px;
         margin-right: 50px;
+
         & a{
             padding: 39px 5px;
             transition: all 1s ease;
@@ -121,6 +124,7 @@ header{
     .titulos{
         opacity: 0;
         transition: all 1s ease-in-out;
+
         & h2{
             font-weight: 500;
             text-align: end;
@@ -134,6 +138,7 @@ header{
             color: #f5db03;
         }
     }
+
     & p{
         font-size: 20px;
         letter-spacing: 2px;
@@ -147,6 +152,7 @@ header{
             filter:drop-shadow(0px 0px 5px #f5db03)
         }
     }
+
     & strong{
         text-align: center;
         max-width: 700px;
@@ -213,6 +219,7 @@ main{
     text-align: center;
     gap: 20px;
     flex-direction: column;
+
     & img{
         height: 150px;
         animation: pulsacao 5s infinite alternate linear;
@@ -258,13 +265,15 @@ main{
            font-weight: 500;
            color: #181818;
            margin-bottom: 50px;
-           & span{
-            padding: 5px;
-            background-color: #f5db03;
-            color: #ffffff;
-           }
+
+            & span{
+                padding: 5px;
+                background-color: #f5db03;
+                color: #ffffff;
+            }
         }
     }
+
     .pacotes{
         gap: 100px;
 
@@ -275,6 +284,7 @@ main{
             box-shadow: 0px 0px 3px silver;
             border-radius: 20px;
             transition: all 1s ease;
+
             & h2{
                 font-size: 23px;
                 font-weight: 500;
@@ -356,6 +366,7 @@ main{
     gap: 50px;
     justify-content: start;
     border-bottom: 5px solid #df003f;
+
     & img{
         height: 700px;
         width: 50%;
@@ -365,10 +376,12 @@ main{
         flex-direction: column;
         align-items: start;
         gap: 15px;
+
         & h1{
             color: #181818;
             font-size: 25px;
             font-family: "Roboto", sans-serif;
+
             & span{
                 padding: 5px;
                 background-color: #f5db03;
@@ -379,6 +392,7 @@ main{
             color: #181818;
             font-weight: 600;
             font-size: 22px;
+
             & strong{
                 border-bottom:2px solid #df003f;
             }
@@ -388,7 +402,6 @@ main{
             font-weight: 500;
             max-width: 700px;
         }
-
         .topico{
             margin-left: 20px;
             gap: 10px;
@@ -398,7 +411,6 @@ main{
             }
         }
     }
-
 }
 
 .clientes{
@@ -415,6 +427,7 @@ main{
         flex-direction: column;
         align-items: start;
         border-radius: 20px 0px 0px 20px;
+
         & h1{
             font-size: 35px;
             font-family: "Roboto", sans-serif;
@@ -450,13 +463,13 @@ main{
     width: 100%;
     margin-top: 50px;
     gap: 20px;
+
     & img{
         height: 40px;
         width: 40px;
         padding: 5px;
         border: 1px solid #df003f;
         border-radius: 50%;
-
         &:hover{
             border: 2px solid #df003f;
         }
@@ -468,13 +481,13 @@ main{
     padding: 100px 0px;
     flex-direction: column;
     gap: 20px;
+
     & h1{
         text-align: center;
         color: #181818;
         font-size: 35px;
         font-weight: 500;
     }
-
     .feedback-interno{
         height: 400px;
         width: 95%;
@@ -488,7 +501,7 @@ main{
             height: 350px;
             min-width: 450px;
             text-align: center;
-            gap: 30px;
+            gap: 25px;
             border-radius: 15px;
             box-shadow: 0px 0px 15px rgb(124, 123, 123);
             padding: 10px;
@@ -497,27 +510,20 @@ main{
             & img{
                 border-radius: 50%;
                 height: 120px;
+                filter: drop-shadow(0px 0px 5px gray);
             }
             & p{
-                font-size: 18px;
+                font-size: 17px;
                 letter-spacing: 1px;
                 color: #181818;
                 font-family: "Roboto", sans-serif;
             }
 
-            .pessoa{
-                width: 100%;
-                justify-content: space-around;
-                & h1{
-                    font-size: 19px;
-                    font-weight: 500;
-                    color: #df003f;
-                    font-family: "Roboto", sans-serif;
-                }
-                & a{
-                    color:#0ba7b4;
-                    font-family: "Roboto", sans-serif;
-                }
+            & h1{
+                font-size: 19px;
+                font-weight: 500;
+                color: #df003f;
+                font-family: "Roboto", sans-serif;
             }
         }
     }
@@ -547,7 +553,6 @@ main{
             font-size: 20px;
             font-weight: 500;
         }
-
     }
     & img{
         height: 100px;
@@ -611,6 +616,7 @@ footer{
     background-image: linear-gradient(to top, #0ba7b4, #df003f);
     padding: 50px 0px;
     gap: 20px;
+
     & h1{
         font-weight: 500;
         font-size: 40px;
@@ -619,14 +625,13 @@ footer{
         flex-direction: column;
         gap: 25px;
     }
-
     .formulario-interno{
         gap: 50px;
     }
-
     .estrutura-input{
         flex-direction: column;
         align-items: start;
+
         & p{
             font-size: 18px;
             font-weight: 400;
@@ -686,6 +691,7 @@ footer{
         width: 100%;
         justify-content: space-around;
         border-top: 3px solid white;
+        
         & div{
             text-align: center;
             &  h2{
