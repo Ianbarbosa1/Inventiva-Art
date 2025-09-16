@@ -213,6 +213,31 @@
             }
         }
     }
+
+    .feedbacks{
+        marquee{
+            height: 350px;
+            width: 98%;
+        }
+        .marquee{
+            gap: 20px;
+        }
+        .feed{
+            height: 300px;
+            width: 300px;
+            gap: 15px;
+
+            & img{
+                height: 90px;
+            }
+            & h1{
+                font-size: 17px;
+            }
+            & p{
+                font-size: 13px;
+            }
+        }
+    }
     
     footer{
         & h1{
@@ -365,6 +390,30 @@
             left: 0px;
         }
     }
+    .feedbacks{
+        marquee{
+            height: 300px;
+            width: 98%;
+        }
+        .marquee{
+            gap: 20px;
+        }
+        .feed{
+            height: 250px;
+            width: 400px;
+            gap: 15px;
+
+            & img{
+                height: 90px;
+            }
+            & h1{
+                font-size: 17px;
+            }
+            & p{
+                font-size: 13px;
+            }
+        }
+    }
     
     footer{
         .formulario-interno{
@@ -457,6 +506,24 @@
             left: 100px;
         }
     }
+    .feedbacks{
+        .feed{
+            flex-direction: column;
+            height: 300px;
+            width: 450px;
+            gap: 20px;
+
+            & img{
+                height: 100px;
+            }
+            & h1{
+                font-size: 18px;
+            }
+            & p{
+                font-size: 15px;
+            }
+        }
+    }
     
     footer{
         .formulario-interno{
@@ -527,6 +594,12 @@
         }
         .resposta{
             left: 150px;
+        }
+    }
+
+    .feedbacks{
+        .feed{
+            width: 450px;
         }
     }
 }
