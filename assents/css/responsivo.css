@@ -257,9 +257,25 @@
         & textarea{
             width: 340px;
         }
+        & button{
+            font-size: 15px;
+        }
+        hr{
+            width: 95%;
+        }
         .sobre-footer{
-            flex-direction: column;
             gap: 20px;
+            & div{
+                &  h2{
+                    font-size: 14px;
+                }
+                & p{
+                    font-size: 11px;
+                }
+            }
+        }
+        .copy{
+            font-size: 12px;
         }
     }
 }
@@ -422,6 +438,13 @@
         }
         & textarea{
             width: 350px;
+        }
+        & button{
+            font-size: 15px;
+        }
+        hr{
+            width: 95%;    
+            border: 1px solid aliceblue;
         }
     }
 }
